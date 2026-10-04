@@ -10,6 +10,8 @@ class PlanState(StrEnum):
     CONFIRMED = "confirmed"
     RUNNING = "running"
     CANCELLED = "cancelled"
+    IMPACTED = "impacted"  # 受封停/失效影响，等待修复方案确认
+    PARTIALLY_CONFIRMED = "partially_confirmed"
 
 
 @dataclass(frozen=True)
