@@ -10,6 +10,7 @@ class PlanState(StrEnum):
     CONFIRMED = "confirmed"
     RUNNING = "running"
     CANCELLED = "cancelled"
+    COMPLETED = "completed"
 
 
 @dataclass(frozen=True)
